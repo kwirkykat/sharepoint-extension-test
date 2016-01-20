@@ -84,8 +84,8 @@
       "properties": {
         "publisher": "Microsoft.Powershell.Test.1",
         "type": "DSC",
-        "typeHandlerVersion": "2.13.6.0",
-        "autoUpgradeMinorVersion": false,
+        "typeHandlerVersion": "2.13",
+        "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spModulesURL')]",
           "configurationFunction": "[parameters('spConfigurationFunction')]",
@@ -143,8 +143,8 @@
       "properties": {
         "publisher": "Microsoft.Powershell.Test.1",
         "type": "DSC",
-        "typeHandlerVersion": "2.13.6.0",
-        "autoUpgradeMinorVersion": false,
+        "typeHandlerVersion": "2.13",
+        "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spModulesURL')]",
           "configurationFunction": "[parameters('spConfigurationFunction')]",
@@ -202,8 +202,8 @@
       "properties": {
         "publisher": "Microsoft.Powershell.Test.1",
         "type": "DSC",
-        "typeHandlerVersion": "2.13.6.0",
-        "autoUpgradeMinorVersion": false,
+        "typeHandlerVersion": "2.13",
+        "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spModulesURL')]",
           "configurationFunction": "[parameters('spConfigurationFunction')]",
@@ -261,8 +261,8 @@
       "properties": {
         "publisher": "Microsoft.Powershell.Test.1",
         "type": "DSC",
-        "typeHandlerVersion": "2.13.6.0",
-        "autoUpgradeMinorVersion": false,
+        "typeHandlerVersion": "2.13",
+        "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spModulesURL')]",
           "configurationFunction": "[parameters('spConfigurationFunction')]",
