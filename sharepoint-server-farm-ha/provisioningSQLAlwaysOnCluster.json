@@ -118,7 +118,7 @@
       "apiVersion": "2015-06-15",
       "location": "[parameters('location')]",
       "properties": {
-        "publisher": "Microsoft.Powershell.Test",
+        "publisher": "Microsoft.Powershell.Test.1",
         "type": "DSC",
         "typeHandlerVersion": "2.13.6.0",
         "autoUpgradeMinorVersion": false,
@@ -151,7 +151,7 @@
       "[concat('Microsoft.Compute/virtualMachines/',parameters('sqlwVMName'),'/extensions/CreateFileShareWitness')]"
     ],
     "properties": {
-      "publisher": "Microsoft.Powershell.Test",
+      "publisher": "Microsoft.Powershell.Test.1",
       "type": "DSC",
       "typeHandlerVersion": "2.13.6.0",
       "autoUpgradeMinorVersion": false,
@@ -193,7 +193,7 @@
       "[concat('Microsoft.Compute/virtualMachines/',parameters('sqlVMName'),'0/extensions/sqlAOPrepare')]"
     ],
     "properties": {
-      "publisher": "Microsoft.Powershell.Test",
+      "publisher": "Microsoft.Powershell.Test.1",
       "type": "DSC",
       "typeHandlerVersion": "2.13.6.0",
       "autoUpgradeMinorVersion": false,
